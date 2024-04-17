@@ -312,6 +312,7 @@ export class Trade<TInput extends Currency, TOutput extends Currency, TTradeType
     }
 
     for (const { routev3, amount } of v3Routes) {
+      // @ts-ignore
       const v3Trade = await V3TradeSDK.fromRoute(routev3, amount, tradeType)
       const { inputAmount, outputAmount } = v3Trade
 
