@@ -1,6 +1,6 @@
 {
   "name": "@atleta-chain/router-sdk",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
   "publishConfig": {
     "access": "public"
@@ -26,10 +26,10 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@atleta-chain/sdk-core": "^4.2.7",
+    "@atleta-chain/sdk-core": "^4.2.8",
     "@atleta-chain/swap-router-contracts": "^1.3.3",
-    "@atleta-chain/v2-sdk": "^4.3.4",
-    "@atleta-chain/v3-sdk": "^3.11.12",
+    "@atleta-chain/v2-sdk": "^4.3.5",
+    "@atleta-chain/v3-sdk": "^3.11.13",
     "@ethersproject/abi": "^5.5.0"
   },
   "devDependencies": {
